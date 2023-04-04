@@ -1,0 +1,408 @@
+:root {
+  --branding-color: #b16334;
+  --secondary-color: #804825;
+  --third-color: #eab08c;
+  --page-color: #fff4ee;
+  --contacts-color: #474747;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+  background-color: var(--page-color);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 76px;
+  line-height: 1.5;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+.banner > h1 {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 500;
+  background: linear-gradient(
+    to bottom,
+    var(--third-color) 50%,
+    var(--page-color)
+  );
+  padding: 50px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 54px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h3::after {
+  display: block;
+  height: 2px;
+  background-color: var(--secondary-color);
+  width: 150px;
+  content: "";
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #06060686;
+  margin: auto 60px;
+  margin-bottom: 60px;
+  color: var(--contacts-color);
+}
+
+/*------------------- Menu Styles-------------------*/
+.menu {
+  margin-top: 25px;
+  padding-left: 35px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding: 14px 16px;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  border-bottom: solid 1px var(--contacts-color);
+}
+
+/* ---------------------------------------------- */
+
+.maincontent {
+  margin-top: 30px;
+}
+
+.description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #06060686;
+  margin: auto 60px;
+  margin-top: 28px;
+}
+
+li {
+  color: #06060686;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.logo {
+  max-width: 80px;
+  margin: auto;
+}
+
+.homepic {
+  margin-top: 30px;
+  height: 420px;
+  width: 580px;
+  border-radius: 2%;
+}
+
+/*------------ About ----------*/
+ol {
+  list-style-image: url("/image/dog-paw_.png");
+  margin-left: 52px;
+}
+ol > li {
+  position: relative;
+  padding-left: 10px;
+}
+
+.aboutpic {
+  margin-top: 30px;
+  height: 500px;
+  width: 580px;
+  border-radius: 2%;
+}
+/* ------------Contacts --------------------*/
+
+.w-iconbox {
+  align-items: center;
+  display: flex;
+  margin-top: 15px;
+  margin-right: calc(15px + 0.2em);
+  margin-left: 30px;
+  color: var(--contacts-color);
+}
+
+.w-iconbox-icon {
+  color: var(--secondary-color);
+  display: inline-flex;
+  box-shadow: inset 0 0 0 2px;
+  line-height: 2.5em;
+  height: 2.5em;
+  width: 2.5em;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.w-iconbox-icon:hover {
+  color: var(--secondary-color);
+}
+
+.fas {
+  display: flex;
+  align-items: center;
+  margin-left: 18px;
+}
+
+.iconbox-icon {
+  color: var(--secondary-color);
+  display: inline-flex;
+  box-shadow: inset 0 0 0 2px;
+  line-height: 2.5em;
+  height: 2.5em;
+  width: 2.5em;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.w-iconbox-title {
+  margin-left: 10px;
+}
+
+.w-iconbox-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  /* color: var(--contacts-color); */
+}
+.w-iconbox-link:hover {
+  background-color: var(--third-color);
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.maillink,
+.fa-github {
+  color: var(--contacts-color);
+}
+.mymaillink:hover {
+  color: var(--secondary-color);
+}
+
+ul {
+  list-style: none;
+  /* padding-left: 9rem; */
+}
+
+.openhours {
+  margin: auto;
+}
+
+.openhours > ul > li {
+  display: block;
+  font-family: var(--default-font-family);
+  letter-spacing: 1.5px;
+  font-size: 18px;
+}
+.maincontacts {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 500px;
+}
+/* .call-b-lg {
+  display: block;
+  margin: 30px 30px 30px 30px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: var(--third-color);
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--third-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--branding-color);
+  color: var(--contacts-color);
+}
+
+label[for="legacy"] {
+  display: inline;
+} */
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+/*----- Footer -----*/
+
+#footer {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+}
+
+.l-footer {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  background: var(--secondary-color);
+  color: #ffeee4;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 991.33px) {
+  .banner {
+    width: 100%;
+  }
+  .logo {
+    max-width: 50px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .menu a {
+    padding: 16px 10px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 18px;
+    margin-top: 28px;
+    margin-bottom: 15px;
+  }
+  h3::after {
+    margin-top: 15px;
+  }
+
+  p,
+  .ink {
+    font-size: 15px;
+  }
+
+  .navigation-links {
+    margin: 0 auto;
+  }
+
+  .banner > h1 {
+    font-size: 50px;
+  }
+
+  .homepic {
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 2%;
+    height: 270px;
+    width: 360px;
+  }
+
+  .aboutpic {
+    margin-top: 30px;
+    text-align: center;
+    height: 280px;
+    width: 320px;
+    border-radius: 2%;
+  }
+  #imageresponsive {
+    text-align: center;
+  }
+
+  .openhours {
+    display: block;
+    width: 70%;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ol {
+    margin-left: 34px;
+    margin-right: 34px;
+  }
+
+  .iconbox-icon {
+    color: var(--secondary-color);
+    display: inline-flex;
+    box-shadow: inset 0 0 0 2px;
+    line-height: 2.5em;
+    height: 2.5em;
+    width: 2.9em;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .w-iconbox-meta {
+    font-size: 14px;
+  }
+
+  .fa-map-marker-alt {
+    margin-left: 23px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+  #footer {
+    display: block;
+  }
+}
