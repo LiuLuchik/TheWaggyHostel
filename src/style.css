@@ -407,3 +407,39 @@ ul {
     display: block;
   }
 }
+
+@media (max-width: 480px) {
+  .menu {
+    margin-top: -41px;
+    padding-left: 15px;
+    position: absolute;
+  }
+
+  .menu a {
+    padding: 16px 2px;
+  }
+
+  .homepic {
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 2%;
+    height: 170px;
+    width: 260px;
+  }
+
+  .aboutpic {
+    margin-top: 30px;
+    text-align: center;
+    height: 180px;
+    width: 196px;
+    border-radius: 2%;
+  }
+
+  .w-iconbox-meta {
+    font-size: 12px;
+  }
+
+  .openhours {
+    font-size: 14px;
+  }
+}
