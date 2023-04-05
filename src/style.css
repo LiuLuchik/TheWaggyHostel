@@ -117,6 +117,10 @@ p {
   border-bottom: solid 1px var(--contacts-color);
 }
 
+.active {
+  border-bottom: solid 1px var(--contacts-color);
+}
+
 /* ---------------------------------------------- */
 
 .maincontent {
