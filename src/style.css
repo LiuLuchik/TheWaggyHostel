@@ -101,7 +101,7 @@ p {
 
 /*------------------- Menu Styles-------------------*/
 .menu {
-  margin-top: -86px;
+  margin-top: -96px;
   padding-left: 35px;
   position: absolute;
 }
@@ -296,7 +296,7 @@ ul {
   }
 
   .menu {
-    margin-top: -13px;
+    margin-top: -41px;
     padding-left: 15px;
     position: absolute;
   }
@@ -337,14 +337,13 @@ ul {
 
   .centered {
     position: absolute;
-    top: 85%;
+    top: 150%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
   .centered > h1 {
     color: rgb(255, 255, 255);
-    text-shadow: -1ch 0 2px var(--secondary-color), -1ch 0 black;
     text-transform: uppercase;
     font-size: 19px;
     font-weight: 300;
