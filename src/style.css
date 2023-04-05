@@ -285,7 +285,35 @@ ul {
   justify-content: end;
 }
 
-@media (max-width: 991.33px) {
+@media (max-width: 991px) {
+  .menu {
+    margin-top: -71px;
+    padding-left: 15px;
+    position: absolute;
+  }
+
+  .menu a {
+    padding: 16px 18px;
+  }
+
+  .homepic {
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 2%;
+    height: 270px;
+    width: 360px;
+  }
+
+  .aboutpic {
+    margin-top: 30px;
+    text-align: center;
+    height: 280px;
+    width: 296px;
+    border-radius: 2%;
+  }
+}
+
+@media (max-width: 767px) {
   .banner {
     width: 100%;
   }
@@ -441,5 +469,49 @@ ul {
 
   .openhours {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+  }
+
+  .menu {
+    margin-top: -41px;
+    padding-left: 15px;
+    position: absolute;
+    font-size: 14px;
+  }
+
+  .menu a {
+    padding: 16px 4px;
+  }
+
+  .homepic {
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 2%;
+    height: 158px;
+    width: 240px;
+  }
+
+  .aboutpic {
+    margin-top: 30px;
+    text-align: center;
+    height: 180px;
+    width: 196px;
+    border-radius: 2%;
+  }
+
+  li {
+    font-size: 11px;
+  }
+
+  .w-iconbox-meta {
+    font-size: 8px;
   }
 }
