@@ -146,8 +146,8 @@ li {
 }
 
 .homepic {
-  margin-top: 30px;
-  height: 420px;
+  margin-top: 5px;
+  height: 100%;
   width: 580px;
   border-radius: 2%;
 }
@@ -300,7 +300,7 @@ ul {
     margin-top: 30px;
     margin-left: 10px;
     border-radius: 2%;
-    height: 270px;
+    height: 100%;
     width: 360px;
   }
 
