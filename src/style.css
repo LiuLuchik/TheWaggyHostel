@@ -141,7 +141,7 @@ ol > li {
 .aboutpic {
   margin-top: 30px;
   height: 500px;
-  width: 580px;
+  width: 542px;
   border-radius: 2%;
 }
 /* ------------Contacts --------------------*/
@@ -360,7 +360,7 @@ label[for="legacy"] {
     margin-top: 30px;
     text-align: center;
     height: 280px;
-    width: 320px;
+    width: 296px;
     border-radius: 2%;
   }
   #imageresponsive {
