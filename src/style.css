@@ -101,7 +101,7 @@ p {
 
 /*------------------- Menu Styles-------------------*/
 .menu {
-  margin-top: 25px;
+  margin-top: -13px;
   padding-left: 35px;
   position: absolute;
 }
@@ -236,7 +236,6 @@ ol > li {
 
 ul {
   list-style: none;
-  /* padding-left: 9rem; */
 }
 
 .openhours {
